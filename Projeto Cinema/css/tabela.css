@@ -1,0 +1,42 @@
+
+.tabela-conteudo {
+    border-collapse: separate;
+    border: 1px solid;
+    margin-top: 100px;
+    height: 100%;
+    width: 100%;
+    max-height: 200px;
+    max-width: 350px;
+    font-size: 12px;
+    overflow: scroll;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 1);
+    content: wrap;
+}
+
+
+.tabela-conteudo thead tr {
+    background-color: #404544;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+
+.tabela-conteudo th,
+.tabela-conteudo td {
+    cursor: pointer;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid;
+}
+
+.tabela-conteudo tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.tabela-conteudo tbody tr:last-of-type {
+    border: 10px solid #232625;
+}
+
+

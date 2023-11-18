@@ -1,0 +1,42 @@
+.filme-agrupar {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.filme-card {
+    width: calc(30% - 20px);
+    height: 300px;
+    margin-bottom: 175px;
+    text-align: center;
+}
+
+.filme-card img {
+    display: flex;
+    width: 100%;
+    max-width: 235px;
+    height: 100%;
+    max-height: 300px;
+    border: 3px solid rgb(72, 79, 95);
+    border-radius: 1px;
+    flex-wrap: wrap;
+}
+
+.filme-card h3{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Garamond, serif;
+    margin-bottom: 2px;
+    background: #333;
+    color: #ffffff;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .filme-card {
+        width: calc(60% - 20px);
+    }
+}
+
+

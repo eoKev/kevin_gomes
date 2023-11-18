@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/assentos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="script.js"></script>
+    <title>Cinema</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Cinecinema</h1>
+        </div>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html" style="color: white;">Home</a></li>
+                    <li><a href="exibicao.html" style="color: white;">Comprar Ingressos</a></li>
+                    <li><a href="#contato" style="color: white">Sobre nós</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Filme">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <div class="opcao">
+            <label>Selecione a opção: </label>
+            <select id="opcao">
+                <option value="32">Dublado Inteira</option>
+                <option value="16">Legendado Inteira</option>
+                <option value="32">Dublado Meia</option>
+                <option value="16">Legendado Meia</option>
+            </select>
+        </div>
+
+        <ul class="info">
+            <li>
+                <div class="assento livre">
+                </div>
+                <h3>Disponível</h3>
+            </li>
+            <li>
+                <div class="assento ocupado">
+                </div>
+                <h3>Ocupado</h3>
+            </li>
+            <li>
+                <div class="assento selecionado">
+                </div>
+                <h3>Selecioando</h3>
+            </li>
+        </ul>
+
+        <div>
+            <div class="tela">
+                <h1>Tela</h1>
+            </div>
+            <div class="fileira">
+                <div class="assento livre"></div>
+                <div class="assento ocupado"  style="margin-right: 20px;"></div>
+                <div class="assento disponivel"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre" style="margin-left: 20px;"></div>
+                <div class="assento livre"></div>
+            </div>
+
+            <div class="fileira">
+                <div class="assento livre"></div>
+                <div class="assento livre"  style="margin-right: 20px;"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre" style="margin-left: 20px;"></div>
+                <div class="assento livre"></div>
+            </div>
+
+            <div class="fileira">
+                <div class="assento livre"></div>
+                <div class="assento livre" style="margin-right: 20px;"></div>
+                <div class="assento livre"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento livre"></div>
+                <div class="assento livre"style="margin-left: 20px;"></div>
+                <div class="assento livre"></div>
+            </div>
+
+            <div class="fileira">
+                <div class="assento ocupado "></div>
+                <div class="assento ocupado" style="margin-right: 20px;"></div>
+                <div class="assento livre"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento livre"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento livre"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento ocupado"></div>
+                <div class="assento ocupado" style="margin-left: 20px;"></div>
+                <div class="assento ocupado"></div>
+            </div>
+        </div>
+  
+        <div class="fileira" style="margin-top: 20px;">
+            <div class="assento livre"></div>
+            <div class="assento livre" style="margin-right: 20px;"></div>
+            <div class="assento livre"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento livre"></div>
+            <div class="assento ocupado" style="margin-left: 20px;"></div>
+            <div class="assento livre"></div>
+        </div>
+
+        <div class="fileira">
+            <div class="assento livre"></div>
+            <div class="assento livre" style="margin-right: 20px;"></div>
+            <div class="assento livre "></div>
+            <div class="assento livre "></div>
+            <div class="assento livre "></div>
+            <div class="assento ocupado"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento livre" style="margin-left: 20px;"></div>
+            <div class="assento ocupado"></div>
+        </div>
+
+        <div class="fileira">
+            <div class="assento ocupado"></div>
+            <div class="assento livre" style="margin-right: 20px;"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento ocupado" style="margin-left: 20px;"></div>
+            <div class="assento ocupado"></div>
+        </div>
+
+        <div class="fileira">
+            <div class="assento ocupado"></div>
+            <div class="assento livre" style="margin-right: 20px;"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento ocupado"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre"></div>
+            <div class="assento livre" style="margin-left: 20px;"></div>
+            <div class="assento ocupado"></div>
+        </div>
+        <p style="margin-top: 20px; margin-top: 50px; margin-left: 10px;">Você selecionou <span id="qtdAssentos">0</span> assento(s) por R$ <span id="total">00,00</span></p>
+    </div>
+
+ 
+
+    <section id="contato">
+        <footer>
+            <div class="footer-conteudo">
+                <div class="redesocial">
+                    <h2>Redes Sociais</h2>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+    
+                <div class="contato">
+                    <h2>Contato</h2>
+                    <p>Telefone: (41) 1234-6578</p>
+                    <p>Email: cinecinema@cinema.com</p>
+                </div>
+    
+                <div class="localizacao">
+                    <h2>Onde nos encontrar</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.776648996656!2d-49.36296305925897!3d-25.44572967274214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce20447a978ed%3A0x9f4a2fb025c06630!2sUniversidade%20Positivo%20-%20Ecoville!5e0!3m2!1spt-PT!2sbr!4v1700250332196!5m2!1spt-PT!2sbr"></iframe>
+                </div>
+            </div>
+            <p>&copy; 2023 - Cinecinema. Todos os direitos reservados.</p>
+        </footer>    
+    </section>
+
+</body>
+<script src="script.js"></script>
+</html>
