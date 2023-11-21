@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/assentos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="script.js"></script>
     <title>Cinema</title>
 </head>
 <body>
@@ -34,89 +33,90 @@
         <div class="opcao">
             <label>Selecione a opção: </label>
             <select id="opcao">
-                <option value="32">Dublado Inteira</option>
-                <option value="16">Legendado Inteira</option>
-                <option value="32">Dublado Meia</option>
-                <option value="16">Legendado Meia</option>
+                <option value="32">Dublado Inteira (R$32,00)</option>
+                <option value="32">Legendado Inteira (R$32,00)</option>
+                <option value="16">Dublado Meia (R$16,00)</option>
+                <option value="16">Legendado Meia (R$16,00)</option>
             </select>
         </div>
 
         <ul class="info">
             <li>
-                <div class="assento livre">
+                <div class="assento" style="pointer-events: none;">
                 </div>
                 <h3>Disponível</h3>
             </li>
             <li>
-                <div class="assento ocupado">
+                <div class="assento ocupado" style="pointer-events: none;">
                 </div>
                 <h3>Ocupado</h3>
             </li>
             <li>
-                <div class="assento selecionado">
+                <div class="assento selecionado" style="pointer-events: none;">
                 </div>
-                <h3>Selecioando</h3>
+                <h3>Selecionado</h3>
             </li>
         </ul>
+        
 
         <div>
             <div class="tela">
                 <h1>Tela</h1>
             </div>
             <div class="fileira">
-                <div class="assento livre"></div>
+                <div class="assento"></div>
                 <div class="assento ocupado"  style="margin-right: 20px;"></div>
                 <div class="assento disponivel"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre" style="margin-left: 20px;"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento" style="margin-left: 20px;"></div>
+                <div class="assento"></div>
             </div>
 
             <div class="fileira">
-                <div class="assento livre"></div>
-                <div class="assento livre"  style="margin-right: 20px;"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre" style="margin-left: 20px;"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
+                <div class="assento"  style="margin-right: 20px;"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
+                <div class="assento" style="margin-left: 20px;"></div>
+                <div class="assento"></div>
             </div>
 
             <div class="fileira">
-                <div class="assento livre"></div>
-                <div class="assento livre" style="margin-right: 20px;"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
+                <div class="assento" style="margin-right: 20px;"></div>
+                <div class="assento"></div>
                 <div class="assento ocupado"></div>
                 <div class="assento ocupado"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
+                <div class="assento"></div>
                 <div class="assento ocupado"></div>
                 <div class="assento ocupado"></div>
-                <div class="assento livre"></div>
-                <div class="assento livre"style="margin-left: 20px;"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
+                <div class="assento"style="margin-left: 20px;"></div>
+                <div class="assento"></div>
             </div>
 
             <div class="fileira">
                 <div class="assento ocupado "></div>
                 <div class="assento ocupado" style="margin-right: 20px;"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
                 <div class="assento ocupado"></div>
                 <div class="assento ocupado"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
                 <div class="assento ocupado"></div>
-                <div class="assento livre"></div>
+                <div class="assento"></div>
                 <div class="assento ocupado"></div>
                 <div class="assento ocupado"></div>
                 <div class="assento ocupado" style="margin-left: 20px;"></div>
@@ -125,45 +125,45 @@
         </div>
   
         <div class="fileira" style="margin-top: 20px;">
-            <div class="assento livre"></div>
-            <div class="assento livre" style="margin-right: 20px;"></div>
-            <div class="assento livre"></div>
+            <div class="assento"></div>
+            <div class="assento" style="margin-right: 20px;"></div>
+            <div class="assento"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado"></div>
-            <div class="assento livre"></div>
+            <div class="assento"></div>
             <div class="assento ocupado" style="margin-left: 20px;"></div>
-            <div class="assento livre"></div>
+            <div class="assento"></div>
         </div>
 
         <div class="fileira">
-            <div class="assento livre"></div>
-            <div class="assento livre" style="margin-right: 20px;"></div>
-            <div class="assento livre "></div>
-            <div class="assento livre "></div>
-            <div class="assento livre "></div>
+            <div class="assento"></div>
+            <div class="assento" style="margin-right: 20px;"></div>
+            <div class="assento "></div>
+            <div class="assento "></div>
+            <div class="assento "></div>
             <div class="assento ocupado"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado"></div>
-            <div class="assento livre" style="margin-left: 20px;"></div>
+            <div class="assento" style="margin-left: 20px;"></div>
             <div class="assento ocupado"></div>
         </div>
 
         <div class="fileira">
             <div class="assento ocupado"></div>
-            <div class="assento livre" style="margin-right: 20px;"></div>
+            <div class="assento" style="margin-right: 20px;"></div>
             <div class="assento ocupado"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
             <div class="assento ocupado"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
             <div class="assento ocupado"></div>
             <div class="assento ocupado" style="margin-left: 20px;"></div>
             <div class="assento ocupado"></div>
@@ -171,19 +171,34 @@
 
         <div class="fileira">
             <div class="assento ocupado"></div>
-            <div class="assento livre" style="margin-right: 20px;"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
+            <div class="assento" style="margin-right: 20px;"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
             <div class="assento ocupado"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre"></div>
-            <div class="assento livre" style="margin-left: 20px;"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
+            <div class="assento"></div>
+            <div class="assento" style="margin-left: 20px;"></div>
             <div class="assento ocupado"></div>
         </div>
         <p style="margin-top: 20px; margin-top: 50px; margin-left: 10px;">Você selecionou <span id="qtdAssentos">0</span> assento(s) por R$ <span id="total">00,00</span></p>
+
+        <button onclick="exibirResumoCompra()">Finalizar Compra</button>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="fecharModal()">&times;</span>
+              <p>Resumo da Compra:</p>
+              <p>Opção: <span id="modalOpcao"></span></p>
+              <p>Quantidade de Assentos: <span id="modalQtdAssentos"></span></p>
+              <p>Valor Total: R$ <span id="modalTotal"></span></p>
+              <button onclick="finalizarCompra()">Finalizar</button>
+              <button onclick="fecharModal()">Cancelar</button>
+            </div>
+          </div>
+          
     </div>
 
  
@@ -212,7 +227,6 @@
             <p>&copy; 2023 - Cinecinema. Todos os direitos reservados.</p>
         </footer>    
     </section>
-
 </body>
 <script src="script.js"></script>
 </html>
