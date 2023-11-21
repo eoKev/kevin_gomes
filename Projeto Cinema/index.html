@@ -1,3 +1,8 @@
+//Adicionado redirecionamento ao clicar no ícone "Info" dos filmes da página index
+//Adicionado script em JS para simular escolha de assentos e compra de ingressos da página comprar.html
+//Funções para gerenciar as telas de pop-up e modal ao clicar em finalizar compra no arquivo script.js
+// Adicionado botão "Finalizar Compra" e modal de para mostrar os dados da compra na pagina comprar.html
+//Adicionado classes em assentos.css para gerencias o modal da página comprar.html
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,7 +12,6 @@
     <link rel="stylesheet" href="css/icons.css">
     <link rel="stylesheet" href="css/filme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="script.js"></script>
     <title>Cinema</title>
 </head>
 <body>
@@ -50,7 +54,7 @@
                         <i class="fa fa-eye" title="Classificação"><h6>14</h6></i>
                     </div>
 
-                    <a href="" style="color: black"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
+                    <a href="https://www.imdb.com/title/tt4589218/" target="_blank" style="color: black"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
                     <a href="exibicao.html#fnaf" style="color: black;"><i class="fa fa-ticket" title="Comprar Ingresso" style="cursor: pointer; margin-left: 150px; "></i></a>     
                 </div>
 
@@ -62,7 +66,7 @@
                         <i class="fa fa-film" title="Gênero"><h6>Terror</h6></i>
                         <i class="fa fa-eye" title="Classificação"><h6>14</h6></i>
                     </div>
-                    <i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i>
+                    <a href="https://www.imdb.com/title/tt15683734/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_it%2520lives%2520inside" target="_blank" style="color: black"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
                     <a href="exibicao.html#naoabra" style="color:black"><i class="fa fa-ticket" title="Comprar Ingresso" style="cursor: pointer; margin-left: 150px; "></i></a>
 
                 </div>
@@ -75,7 +79,7 @@
                         <i class="fa fa-film" title="Gênero"><h6>Ação</h6></i>
                         <i class="fa fa-eye" title="Classificação"><h6>12</h6></i>
                     </div>
-                    <i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i>
+                    <a href="https://www.imdb.com/title/tt10545296/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_hunger%2520games" target="blank" style="color: black"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
                     <a href="exibicao.html#jogosvorazes" style="color:black"><i class="fa fa-ticket" title="Comprar Ingresso" style="cursor: pointer; margin-left: 150px; "></i></a>
                 </div>
             </div>
@@ -89,7 +93,8 @@
                         <i class="fa fa-film" title="Gênero"><h6>Terror</h6></i>
                         <i class="fa fa-eye" title="Classificação"><h6>16</h6></i>
                     </div>
-                    <i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i>
+                    
+                    <a href="https://www.imdb.com/title/tt12921446/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_the%2520exor" style="color: black;"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
                     <a href="exibicao.html#exorcista" style="color:black"><i class="fa fa-ticket" title="Comprar Ingresso" style="cursor: pointer; margin-left: 150px; "></i></a>
                 </div>
 
@@ -101,7 +106,7 @@
                         <i class="fa fa-film" title="Gênero"><h6>Aventura</h6></i>
                         <i class="fa fa-eye" title="Classificação"><h6>Livre</h6></i>
                     </div>
-                    <i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i>
+                    <a href="https://www.imdb.com/title/tt15837338/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_paw%2520patrol" target="_blank" style="color: black;"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
                     <a href="exibicao.html#patrulha" style="color: black"><i class="fa fa-ticket" title="Comprar Ingresso" style="cursor: pointer; margin-left: 150px; "></i></a>
 
                 </div>
@@ -114,7 +119,8 @@
                         <i class="fa fa-film" title="Gênero"><h6>Ação</h6></i>
                         <i class="fa fa-eye" title="Classificação"><h6>12</h6></i>
                     </div>
-                    <i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i>
+                    <a href="https://www.imdb.com/title/tt10676048/?ref_=nv_sr_srsg_0_tt_6_nm_2_q_the%2520marvels" target="_blank" style=" color: black;"><i class="fa fa-info" title="Sobre o Filme" style="cursor: pointer"></i></a>
+                    
                     <a href="exibicao.html#marvels" style="color: black"><i class="fa fa-ticket" title="Comprar Ingresso" style="cursor: pointer; margin-left: 150px; "></i></a>
                 </div>
             </div>
@@ -146,5 +152,6 @@
             <p>&copy; 2023 - Cinecinema. Todos os direitos reservados.</p>
         </footer>    
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
